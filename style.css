@@ -82,20 +82,19 @@ p {
     transform: scale(1.02);
 }
 
-.link:active {
-    color: var(--main-color);
-}
-
-
-footer {
-    margin-top: 30%;
-} 
-
 .link {
     text-decoration: none;
     color: var(--fourth-color);
     font-weight: 700;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.link:active {
+    color: var(--main-color);
+}
+
+footer {
+    margin-top: 30%;
+} 
+
+.attribution { font-size: 0.69rem; text-align: center; }
 .attribution a { color: var(--sixth-color) ; }
