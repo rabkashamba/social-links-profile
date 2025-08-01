@@ -75,9 +75,14 @@ p {
     
 }
 
+.social-links p:hover {
+    transform: scale(1.02);
+}
+
 .link:active {
     color: var(--main-color);
 }
+
 
 footer {
     margin-top: 30%;
